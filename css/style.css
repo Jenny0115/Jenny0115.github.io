@@ -451,7 +451,7 @@ ol {
   color: #adadad;
   font-size: 18px;
   font-family: "Play", sans-serif;
-  margin-right: 16px;
+  margin-right: 20px;
   position: relative;
   display: inline-block;
 }
@@ -485,8 +485,7 @@ ol {
   display: block;
   font-size: 15px;
   letter-spacing: 2px;
-  text-transform: uppercase;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
   position: relative;
   top: 100px;
   opacity: 0;
@@ -500,7 +499,7 @@ ol {
   font-weight: 700;
   line-height: 70px;
   text-transform: uppercase;
-  margin-bottom: 38px;
+  margin-bottom: 35px;
   position: relative;
   top: 100px;
   opacity: 0;
@@ -725,21 +724,27 @@ ol {
 }
 
 .team__item.team__item--second {
-  margin-top: -40px;
+  margin-top: 0px;
+  margin-right:10px;
+  margin-left:10px
 }
 .team__item.team__item--third {
-  margin-top: -80px;
+  margin-top: 0px;
+margin-right:10px
 }
 .team__item.team__item--four {
-  margin-top: -120px;
+  margin-top: 0px;
+margin-right:10px
 }
 
 .team__item.team__item--5 {
-  margin-top: -160px;
+  margin-top: 0px;
+margin-right:10px
 }
 
 .team__item.team__item--6 {
-  margin-top: -200px;
+  margin-top: 0px;
+margin-right:10px
 }
 
 .team__item__text {
@@ -804,13 +809,13 @@ ol {
   margin-bottom: 0;
 }
 .blog__item.latest__item:hover {
-  border: 1px solid #222222 !important;
+  border: 2px solid #222222 !important;
   background: url(../img/blog/blog-1.jpg);
   background-size: cover;
 }
 
 .latest__slider.owl-carousel .owl-item .col-lg-4 {
-  max-width: 100%;
+  max-width: 95%;
 }
 .latest__slider.owl-carousel .owl-dots {
   text-align: center;
@@ -1443,8 +1448,7 @@ ol {
   color: #ffffff;
   font-weight: 700;
   line-height: 47px;
-  text-transform: uppercase;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
 }
 .blog__hero__text ul li {
   font-size: 14px;
@@ -1457,7 +1461,7 @@ ol {
 }
 .blog__hero__text ul li:after {
   position: absolute;
-  right: -18px;
+  right: -15px;
   top: 0;
   content: "/";
 }
@@ -1468,7 +1472,8 @@ ol {
   display: none;
 }
 .blog__hero__text ul li span {
-  text-transform: uppercase;
+ text-align: center;
+
 }
 
 /*---------------------
