@@ -108,6 +108,7 @@ ol {
 -----------------------*/
 .section-title {
   margin-bottom: 50px;
+margin-top: 90px;
 }
 .section-title.center-title {
   text-align: center;
@@ -714,6 +715,7 @@ ol {
 
 .section-title.team__title {
   margin-bottom: 90px;
+
 }
 
 .team__item {
@@ -740,12 +742,22 @@ margin-right:10px
 }
 
 .team__item.team__item--5 {
-  margin-top: 0px;
+  margin-top: 30px;
 margin-right:10px
 }
 
 .team__item.team__item--6 {
-  margin-top: 0px;
+  margin-top: 30px;
+margin-right:10px
+}
+
+.team__item.team__item--7 {
+  margin-top: 30px;
+margin-right:10px
+}
+
+.team__item.team__item--8 {
+  margin-top: 30px;
 margin-right:10px
 }
 
@@ -1150,8 +1162,8 @@ margin-right:10px
 -----------------------*/
 .services {
   background: #100028;
-  padding-bottom: 60px;
-  padding-top: 110px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .services__title p {
@@ -1228,6 +1240,7 @@ margin-right:10px
 .portfolio__filter {
   text-align: center;
   margin-bottom: 40px;
+
 }
 .portfolio__filter li {
   list-style: none;
@@ -1246,14 +1259,15 @@ margin-right:10px
 }
 
 .portfolio__item {
-  margin-bottom: 35px;
+  margin-bottom: 80px;
 }
 .portfolio__item:hover .portfolio__item__text h4:after {
   opacity: 1;
 }
 
 .portfolio__item__video {
-  height: 240px;
+  height: 180px;
+  width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1263,7 +1277,9 @@ margin-right:10px
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
+ margin-left: 35px;
+margin-right: 35px;
 }
 .portfolio__item__video .play-btn {
   display: inline-block;
