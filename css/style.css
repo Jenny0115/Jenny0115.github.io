@@ -1170,7 +1170,7 @@ margin-right:10px
   Services
 -----------------------*/
 .services {
-  background: #100028;
+  background: #17043E;
   padding-bottom: 10px;
   padding-top: 10px;
 }
@@ -1244,6 +1244,10 @@ margin-right:10px
 -----------------------*/
 .portfolio {
   background: #100028;
+}
+
+.portfolio-2 {
+  background: #17043E;
 }
 
 .portfolio__filter {
