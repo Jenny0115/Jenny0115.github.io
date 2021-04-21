@@ -1297,7 +1297,7 @@ margin-right: 35px;
 
 .portfolio__item__video-2 {
   height: 360px;
-  width: 560px;
+  width: 720px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1308,7 +1308,7 @@ margin-right: 35px;
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 20px;
- margin-left: 305px;
+ margin-left: 225px;
 }
 
 .portfolio__item__video .play-btn {
