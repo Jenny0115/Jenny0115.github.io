@@ -1294,6 +1294,23 @@ margin-right:10px
  margin-left: 35px;
 margin-right: 35px;
 }
+
+.portfolio__item__video-2 {
+  height: 360px;
+  width: 560px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+ margin-left: 305px;
+}
+
 .portfolio__item__video .play-btn {
   display: inline-block;
   color: #ffffff;
